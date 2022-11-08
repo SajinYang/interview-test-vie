@@ -61,6 +61,12 @@ export default {
 </style>
 
 <style lang="scss">
+#app {
+  position: relative;
+}
+#footer {
+  position: absolute;
+}
 .top {
   position: fixed;
   bottom: 50px;

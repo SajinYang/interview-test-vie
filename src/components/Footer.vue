@@ -3,11 +3,8 @@
 </template>
 
 <style lang="scss" scoped>
+
 #footer {
-  position: fixed;
-  z-index: 999;
-  bottom: 0;
-  left: 0;
   width: 100%;
   height: 35px;
   font-size: 1rem;
