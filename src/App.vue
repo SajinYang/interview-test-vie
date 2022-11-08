@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img
-      class="icon cursor"
+      class="icon top cursor"
       v-show="scY > 300"
       @click="toTop"
       src="./assets/icons/pin-top.svg"
@@ -61,7 +61,7 @@ export default {
 </style>
 
 <style lang="scss">
-.icon {
+.top {
   position: fixed;
   bottom: 50px;
   right: 10px;
