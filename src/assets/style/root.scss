@@ -1,0 +1,24 @@
+//color
+html[data-theme="light"] {
+  --background: white;
+  --background-icon: #ffeaa7;
+  --background-detail-color: #267c99;
+  --background-btn-color: #267c99;
+  --background-footer-color: #267c99;
+  --brand-color: #267c99;
+  --normal-color: #5e5c5c;
+  --description-color: white;
+  --footer-font: white;
+}
+
+html[data-theme="dark"] {
+  --background: black;
+  --background-icon: #ffeaa7;
+  --background-detail-color: black;
+  --background-btn-color: #267c99;
+  --background-footer-color: #267c99;
+  --brand-color: #267c99;
+  --normal-color: white;
+  --description-color: white;
+  --footer-font: white;
+}
